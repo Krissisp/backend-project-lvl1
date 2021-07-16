@@ -11,14 +11,14 @@ const gcd = () => {
     if (rand % rand1 === 0 || rand1 % rand === 0) {
       rehenie = Math.min(rand, rand1);
     } else {
-      for (let del = 1; i <= Math.min(rand, rand1); del += 1) {
+      for (let del = 1; del <= Math.min(rand, rand1); del += 1) {
         if (rand1 % del === 0 && rand % del === 0) {
           rehenie = del;
         }
       }
     }
     if (Number(otvet) !== rehenie) {
-      console.log(`${otvet} is wrong answer ;(. Correct answer was ${rehenie}.`);
+      console.log(`'${otvet}' is wrong answer ;(. Correct answer was ${rehenie}.`);
       console.log(`Let's try again, ${name}!`);
       break;
     } else {
