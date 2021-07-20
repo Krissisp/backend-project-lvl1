@@ -1,7 +1,7 @@
 {
-  "name": "@hexlet/code",
+  "name": "krissisp-backend-project",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![Actions Status](https://github.com/Krissisp/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Krissisp/backend-project-lvl1/actions)",
   "main": "index.js",
   "scripts": {
