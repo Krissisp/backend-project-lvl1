@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { generGame, getRandom } from './index.js';
+import { generGame, getRandom } from '../index.js';
 
 const randomOperator = ['+', '-', '*'];
 const question = 'What is the result of the expression?';

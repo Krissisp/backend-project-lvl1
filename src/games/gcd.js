@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandom, generGame } from './index.js';
+import { getRandom, generGame } from '../index.js';
 
 const question = 'Find the greatest common divisor of given numbers.';
 

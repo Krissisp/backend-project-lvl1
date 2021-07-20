@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-import { generGame, getRandom } from './index.js';
+import { generGame, getRandom } from '../index.js';
 
 const question = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const game = () => {
