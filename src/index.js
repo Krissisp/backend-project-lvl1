@@ -5,12 +5,14 @@ export const getRandom = (min, max) => {
   return rand;
 };
 
+const maxFor = 3;
+
 export const generGame = (question, game) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello,${name}!`);
   console.log(question);
-  for (let i = 1; i <= 3; i += 1) {
+  for (let i = 1; i <= maxFor; i += 1) {
     const [result, resUser] = game();
     if (resUser !== result) {
       console.log(`${resUser} is wrong answer ;(. Correct answer was ${result}.`);
@@ -20,7 +22,7 @@ export const generGame = (question, game) => {
       console.log('Correct!');
     }
 
-    if (i === 3 && resUser === result) {
+    if (i === maxFor && resUser === result) {
       console.log(`Congratulations, ${name}!`);
     }
   }
