@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { name, hey } from '../scr/cli.js';
+import hey from '../src/cli.js';
 
-hey(name);
+hey();

@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import calculater from '../scr/calculater.js';
+import calculater from '../src/calc.js';
 
 calculater();
