@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-import { generGame, getRandom } from '../index.js';
+import { generGame, getRandom } from '../cli.js';
 
 const question = 'Answer "yes" if the number is even, otherwise answer "no".';
 const game = () => {

@@ -1,13 +1,12 @@
 import readlineSync from 'readline-sync';
-import { generGame, getRandom } from '../index.js';
+import { generGame, getRandom } from '../cli.js';
 
 const question = 'What number is missing in the progression?';
 
 const game = () => {
   const maxNumbers = getRandom(5, 10);
-  const num1 = getRandom(0, 100);
   const d = getRandom(1, 10);
-  const numbers = [num1];
+  const numbers = [getRandom(0, 100)];
   let numNext = 0;
   for (let i = 1; i <= maxNumbers; i += 1) {
     numNext = numbers[i - 1] + d;
