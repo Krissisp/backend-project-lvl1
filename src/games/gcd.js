@@ -6,7 +6,7 @@ const question = 'Find the greatest common divisor of given numbers.';
 const game = () => {
   const num1 = getRandom(1, 100);
   const num2 = getRandom(1, 70);
-  const resUser = readlineSync.question(`${num1} ${num2} `);
+  const resUser = readlineSync.question(`Question: ${num1} ${num2} `);
   let result = 1;
   if (num1 % num2 === 0 || num2 % num1 === 0) {
     result = Math.min(num1, num2);

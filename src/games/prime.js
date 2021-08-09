@@ -5,7 +5,7 @@ import { generGame, getRandom } from '../cli.js';
 const question = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const game = () => {
   const num = getRandom(1, 100);
-  const resUser = readlineSync.question(`${num} `);
+  const resUser = readlineSync.question(`Question: ${num} `);
   let result = 'yes';
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {

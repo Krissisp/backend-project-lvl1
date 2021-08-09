@@ -16,7 +16,7 @@ export const greeting = () => {
 export const generGame = (question, game) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello,${name}!`);
+  console.log(`Hello, ${name}!`);
   console.log(question);
   for (let i = 1; i <= maxFor; i += 1) {
     const [result, resUser] = game();
