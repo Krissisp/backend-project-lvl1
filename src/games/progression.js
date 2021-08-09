@@ -16,7 +16,7 @@ const game = () => {
   const index = getRandom(0, maxNumbers - 1);
   const result = numbers[index];
   numbers[index] = '..';
-  
+
   const resUser = readlineSync.question(`Question: ${numbers.join(' ')} `);
   return [Number(result), Number(resUser)];
 };
