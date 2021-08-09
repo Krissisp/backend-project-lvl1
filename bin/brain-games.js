@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { greeting } from '../brain-start';
+import { greeting } from '../src/brain-start';
 
 greeting();
