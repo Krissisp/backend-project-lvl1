@@ -7,6 +7,12 @@ export const getRandom = (min, max) => {
 
 const maxFor = 3;
 
+export const greeting = () => {
+  console.log('Welcome to the Brain Games!');
+  const userName = readlineSync.question('\nMay I have your name? ');
+  console.log(`Hello! ${userName} \n`);
+};
+
 export const generGame = (question, game) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
