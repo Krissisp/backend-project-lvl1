@@ -1,5 +1,5 @@
 {
-  "name": "@hexlet/code",
+  "name": "@krissisp/code",
   "type": "module",
   "version": "1.0.1",
   "description": "[![Actions Status](https://github.com/Krissisp/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Krissisp/backend-project-lvl1/actions)",
@@ -32,5 +32,8 @@
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
